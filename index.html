@@ -17,8 +17,8 @@
              Kakao.Link.sendDefault({
                  objectType: 'feed',
                  content: {
-                     title: 'Dodoring12의 홈페이지',
-                     description: '이 페이지를 확인해보세요!',
+                     title: '2024 졸업전시회 초대장',
+                     description: '여러분을 초대합니다.',
                      imageUrl: 'https://your-image-url.com/image.jpg', // 공유할 이미지 URL (필요시 대체)
                      link: {
                          mobileWebUrl: 'https://dodoring12.github.io/',
@@ -130,9 +130,10 @@
         function openMap(event) {
             event.preventDefault();
     
-            const goalX = 126.9779692; // 경도 (서울 시청)
-            const goalY = 37.566535;   // 위도 (서울 시청)
-            const placeName = encodeURIComponent("서울 시청");
+            // 목적지 좌표 (충청북도 제천시 세명로 65)
+            const goalX = 128.210194; // 경도 (longitude)
+            const goalY = 37.139466;   // 위도 (latitude)
+            const placeName = encodeURIComponent("민송도서관");
     
             // 각 네비게이션 앱에 맞는 URL 스킴 생성
             const naverMapUrl = `nmap://route/car?dlat=${goalY}&dlng=${goalX}&dname=${placeName}`;
