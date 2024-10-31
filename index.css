@@ -30,7 +30,7 @@ body {
     margin-bottom: 20px;
     opacity: 0; /* 애니메이션 전 상태 */
     animation: fadeInSlideDown1 0.7s ease forwards;
-    animation-delay: 0s; /* 첫 번째 이미지 즉시 시작 */
+    animation-delay: 1s; /* 첫 번째 이미지 즉시 시작 */
 }
 
 .area1_1 img {
@@ -41,7 +41,7 @@ body {
     margin-bottom: 250px;
     opacity: 0;
     animation: fadeInSlideDown1 0.7s ease forwards;
-    animation-delay: 0.5s; /* 두 번째 이미지 0.5초 후 시작 */
+    animation-delay: 1.5s; /* 두 번째 이미지 0.5초 후 시작 */
 }
 
 .area1_2 img {
