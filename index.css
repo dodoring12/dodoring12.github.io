@@ -27,7 +27,7 @@ body {
     max-width: 490px;
     margin: 0 auto;
     display: block;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     opacity: 0; /* 애니메이션 전 상태 */
     animation: fadeInSlideDown1 0.7s ease forwards;
     animation-delay: 0s; /* 첫 번째 이미지 즉시 시작 */
@@ -50,9 +50,6 @@ body {
     margin: 0 auto;
     display: block;
     margin-bottom: 120px;
-    opacity: 0;
-    animation: fadeInSlideDown1 0.7s ease forwards;
-    animation-delay: 1s; /* 세 번째 이미지 1초 후 시작 */
 }
 
 
